@@ -178,9 +178,6 @@ export default function Navbar() {
         </div>
       </div>
       }
-      {/* <div className="py-32 h-full text-center bg-gray-100">
-        <h2 className="font-extrabold text-4xl">Welcome to my Blog</h2>
-      </div> */}
     </div>
   )
 }

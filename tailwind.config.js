@@ -4,6 +4,11 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    backgroundColor: theme => ({
+      ...theme('colors'),
+      'primary':'#00A1ED',
+      
+    }),
     extend: {},
     fontFamily:{
       'display':['Noto Sans','sans-serif']
