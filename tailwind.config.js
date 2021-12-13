@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily:{
-      'display':['Rubik','sans-serif']
+      'display':['Noto Sans','sans-serif']
     }
   },
   variants: {
