@@ -11,7 +11,7 @@ module.exports = {
     }),
     extend: {},
     fontFamily:{
-      'display':['Noto Sans','sans-serif']
+      'display':['Rubik','sans-serif']
     }
   },
   variants: {
