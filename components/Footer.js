@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 export default function Footer() {
     return (
-        <div className='mt-24 md:px-0 px-6 pt-20 pb-10 w-full bg-[#F7FAFC]'>
+        <div className='md:px-0 px-6 pt-20 pb-10 w-full bg-[#F7FAFC]'>
             <div className='md:max-w-2xl lg:max-w-5xl mx-auto '>
                 <div className='flex-col md:flex-row flex justify-between items-start md:items-center md:space-y-0 space-y-5'>
                     <div className='relative md:w-[400px] md:h-[84.23px] w-[200px] h-[40px]'>
