@@ -29,19 +29,27 @@ export default function Carousel() {
         <div>
             <Slider {...settings}>
             <div className="slide">
-                <div style={{borderRadius: '10px', overflow: 'hidden'}}>
-                <Image width={958} height={392} src="/images/wts1.jpg" alt="img" layout="responsive"  />
+                <div className='hidden md:block' style={{borderRadius: '10px', overflow: 'hidden'}}>
+                    <Image  width={958} height={392} src="/images/wts1.jpg" alt="img" layout="responsive"  />
+                </div>
+                <div className='block md:hidden' style={{borderRadius: '10px', overflow: 'hidden'}}>
+                    <Image  width={1413} height={1746} src="/images/wtsm1.jpg" alt="img" layout="responsive"   />
                 </div>
             </div>
             <div className="slide">
-                <div style={{borderRadius: '10px', overflow: 'hidden'}}>
-                <Image width={958} height={392} src="/images/wts2.jpg" alt="img" layout="responsive"  />
+                <div className='hidden md:block' style={{borderRadius: '10px', overflow: 'hidden'}}>
+                    <Image width={958} height={392} src="/images/wts2.jpg" alt="img" layout="responsive"  />
                 </div>
-            
+                <div className='block md:hidden' style={{borderRadius: '10px', overflow: 'hidden'}}>
+                    <Image  width={1413} height={1746} src="/images/wtsm1.jpg" alt="img" layout="responsive"   />
+                </div>
             </div>
             <div className="slide">
-                <div style={{borderRadius: '10px', overflow: 'hidden'}}>
-                <Image width={958} height={392} src="/images/wts3.jpg" alt="img" layout="responsive"  />
+                <div className='hidden md:block' style={{borderRadius: '10px', overflow: 'hidden'}}>
+                    <Image width={958} height={392} src="/images/wts3.jpg" alt="img" layout="responsive"  />
+                </div>
+                <div className='block md:hidden' style={{borderRadius: '10px', overflow: 'hidden'}}>
+                    <Image  width={1413} height={1746} src="/images/wtsm1.jpg" alt="img" layout="responsive"   />
                 </div>
             </div>
          
