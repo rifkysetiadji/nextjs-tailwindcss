@@ -30,18 +30,18 @@ export default function Carousel() {
             <Slider {...settings}>
             <div className="slide">
                 <div style={{borderRadius: '10px', overflow: 'hidden'}}>
-                <Image width={500} height={210} src="/images/wts1.jpg" alt="img" layout="responsive"  />
+                <img width={1260} height={574} src="/images/wts1.jpg" alt="img" layout="responsive"  />
                 </div>
             </div>
             <div className="slide">
                 <div style={{borderRadius: '10px', overflow: 'hidden'}}>
-                <Image width={500} height={210} src="/images/wts2.jpg" alt="img" layout="responsive"  />
+                <img width={1260} height={574} src="/images/wts2.jpg" alt="img" layout="responsive"  />
                 </div>
             
             </div>
             <div className="slide">
                 <div style={{borderRadius: '10px', overflow: 'hidden'}}>
-                <Image width={500} height={210} src="/images/wts3.jpg" alt="img" layout="responsive"  />
+                <img width={1260} height={574} src="/images/wts3.jpg" alt="img" layout="responsive"  />
                 </div>
             </div>
          
