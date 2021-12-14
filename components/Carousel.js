@@ -33,7 +33,7 @@ export default function Carousel() {
                     <Image  width={958} height={392} src="/images/wts1.jpg" alt="img" layout="responsive"  />
                 </div>
                 <div className='block md:hidden' style={{width:'100%',height:350,position:'relative',borderRadius: '10px', overflow: 'hidden'}}>
-                    <Image   objectFit="fill"src={`/images/wtsm1.jpg`} alt="" layout="fill"/>
+                    <Image priority  objectFit="fill"src={`/images/wtsm1.jpg`} alt="" layout="fill"/>
 
                 </div>
             </div>
@@ -42,7 +42,7 @@ export default function Carousel() {
                     <Image width={958} height={392} src="/images/wts2.jpg" alt="img" layout="responsive"  />
                 </div>
                 <div className='block md:hidden' style={{width:'100%',height:350,position:'relative',borderRadius: '10px', overflow: 'hidden'}}>
-                    <Image   objectFit="fill"src={`/images/wtsm1.jpg`} alt="" layout="fill"/>
+                    <Image   objectFit="fill"src={`/images/wtsm2.jpg`} alt="" layout="fill"/>
 
                 </div>
             </div>
@@ -52,7 +52,7 @@ export default function Carousel() {
                     <Image width={958} height={392} src="/images/wts3.jpg" alt="img" layout="responsive"  />
                 </div>
                 <div className='block md:hidden' style={{width:'100%',height:350,position:'relative',borderRadius: '10px', overflow: 'hidden'}}>
-                    <Image   objectFit="fill"src={`/images/wtsm1.jpg`} alt="" layout="fill"/>
+                    <Image   objectFit="fill"src={`/images/wtsm3.jpg`} alt="" layout="fill"/>
 
                 </div>
             </div>
