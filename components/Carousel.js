@@ -1,6 +1,39 @@
 import React from 'react'
 import Slider from "react-slick";
 import Image from 'next/image'
+function SampleNextArrow(props) {
+    const {  style, onClick, } = props;
+    return (
+      <div
+          className="slick-arrow"
+          style={{...style,cursor:'pointer', position:'absolute',width:40,height:40,top:'45%',backgroundColor:'white',borderRadius:'100%',right:130, display: "flex",justifyContent:'center',alignItems:"center",}}
+          onClick={onClick}
+      >
+        <div style={{position:'relative',width:10,height:18}}>
+        <Image  src="/images/chevron-right.png" layout="fill" alt="arrow_left"/>
+  
+        </div>
+      </div>
+  );
+  }
+  
+  function SamplePrevArrow(props) {
+    const {  style, onClick, } = props;
+  
+    return (
+      <div
+          className="slick-arrow"
+          style={{...style,cursor:'pointer', position:'absolute',width:40,height:40,top:'45%',backgroundColor:'white',borderRadius:'100%',zIndex:1  ,left:130, display: "flex",justifyContent:'center',alignItems:"center",}}
+          onClick={onClick}
+      >
+        <div style={{position:'relative',width:10,height:18}}>
+        <Image  src="/images/chevron-left.png" layout="fill" alt="arrow_left"/>
+  
+        </div>
+      </div>
+  );
+  }
+  
 const settings = {
     
         centerMode: true,
@@ -10,7 +43,8 @@ const settings = {
     centerPadding:"150px",
     slidesToShow: 1,
     slidesToScroll: 1,
-    
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow/>,
   };
 const settings2 = {
     className: "block md:hidden",
