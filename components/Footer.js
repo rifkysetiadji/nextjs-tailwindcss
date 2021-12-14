@@ -5,8 +5,8 @@ export default function Footer() {
         <div className='mt-24 md:px-0 px-6 pt-20 pb-10 w-full bg-[#F7FAFC]'>
             <div className='md:max-w-2xl lg:max-w-5xl mx-auto '>
                 <div className='flex-col md:flex-row flex justify-between items-start md:items-center md:space-y-0 space-y-5'>
-                    <div className='relative md:w-[400px] md:h-[84.23px] w-[200px] h-[42px]'>
-                        <Image src="/images/onegml.png" layout='fill' alt="ONE GML"/>
+                    <div className='relative md:w-[400px] md:h-[84.23px] w-[200px] h-[40px]'>
+                        <Image src="/images/onegml.png" layout='fill' alt="ONE GML" objectFit='contain'/>
                     </div>
                     <div className='flex items-center space-x-3 md:w-[400px] w-full'>
                         <p className=' md:text-[24px] text-[12px] text-[#252525] font-bold font-display'>Subscribe our latest insight and event</p>
