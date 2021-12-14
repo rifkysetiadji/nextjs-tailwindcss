@@ -7,7 +7,7 @@ const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    centerPadding:"350px",
+    centerPadding:"150px",
     slidesToShow: 1,
     slidesToScroll: 1,
     responsive:[
@@ -30,18 +30,18 @@ export default function Carousel() {
             <Slider {...settings}>
             <div className="slide">
                 <div style={{borderRadius: '10px', overflow: 'hidden'}}>
-                <img className='w-full' width={958} height={392} src="/images/wts1.jpg" alt="img" layout="responsive"  />
+                <Image width={958} height={392} src="/images/wts1.jpg" alt="img" layout="responsive"  />
                 </div>
             </div>
             <div className="slide">
                 <div style={{borderRadius: '10px', overflow: 'hidden'}}>
-                <img className='w-full' src="/images/wts2.jpg" alt="img" layout="responsive"  />
+                <Image width={958} height={392} src="/images/wts2.jpg" alt="img" layout="responsive"  />
                 </div>
             
             </div>
             <div className="slide">
                 <div style={{borderRadius: '10px', overflow: 'hidden'}}>
-                <img className='w-full' src="/images/wts3.jpg" alt="img" layout="responsive"  />
+                <Image width={958} height={392} src="/images/wts3.jpg" alt="img" layout="responsive"  />
                 </div>
             </div>
          
