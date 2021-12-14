@@ -63,20 +63,20 @@ export default function Carousel() {
             <div className="slide">
                 
                 <div className='block ' style={{borderRadius: '10px', overflow: 'hidden'}}>
-                    <Image priority width={1413} height={1746} src="/images/wtsm1.jpg" alt="img" layout="responsive"   />
+                    <Image priority width={1413} height={1646} src="/images/wtsm1.jpg" alt="img" layout="responsive"   />
                 </div>
             </div>
             <div className="slide">
                
                 <div className='block ' style={{borderRadius: '10px', overflow: 'hidden'}}>
-                    <Image  width={1413} height={1746} src="/images/wtsm2.jpg" alt="img" layout="responsive"   />
+                    <Image  width={1413} height={1646} src="/images/wtsm2.jpg" alt="img" layout="responsive"   />
                 </div>
             </div>
 
             <div className="slide">
                 
                 <div className='block ' style={{borderRadius: '10px', overflow: 'hidden'}}>
-                    <Image  width={1413} height={1746} src="/images/wtsm3.jpg" alt="img" layout="responsive"   />
+                    <Image  width={1413} height={1646} src="/images/wtsm3.jpg" alt="img" layout="responsive"   />
                 </div>
             </div>
          
