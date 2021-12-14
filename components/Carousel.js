@@ -15,6 +15,7 @@ const settings = {
           breakpoint: 600,
           settings: {
               centerPadding: "40px",
+              centerMode:false,
               arrows:false,
               // nextArrow: null,
               // prevArrow: null,
