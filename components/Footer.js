@@ -5,9 +5,7 @@ export default function Footer() {
         <div className='md:px-0 px-6 pt-20 pb-10 w-full bg-[#F7FAFC]'>
             <div className='md:max-w-2xl lg:max-w-5xl mx-auto '>
                 <div className='flex-col md:flex-row flex justify-between items-start md:items-center md:space-y-0 space-y-5'>
-                    {/* <div > */}
-                        <img className='relative md:w-[400px] md:h-[84.23px] w-[200px] h-[40px] object-contain' src="/images/onegml.webp"  alt="ONE GML" />
-                    {/* </div> */}
+                    <img className='md:w-[400px] md:h-[84.23px] w-[200px] h-[42.115px] object-contain' src="/images/onegml.webp"  alt="ONE GML" />
                     <div className='flex items-center space-x-3 md:w-[400px] w-full'>
                         <p className=' md:text-[24px] text-[12px] text-[#252525] font-bold font-display'>Subscribe our latest insight and event</p>
                         <button className="md:py-4 md:px-6 py-2 px-4 font-semibold rounded-lg shadow-md text-white bg-sky-500 hover:bg-sky-700">
