@@ -10,20 +10,7 @@ const settings = {
     centerPadding:"150px",
     slidesToShow: 1,
     slidesToScroll: 1,
-    responsive:[
-      {
-          breakpoint: 600,
-          settings: {
-              centerPadding: "20px",
-            //   centerMode:false,
-              arrows:false,
-              // nextArrow: null,
-              // prevArrow: null,
-              dots:true,
-              // dotsClass: `slick-dots ${style.dots_mobile}`,
-          }
-        },
-  ]
+    
   };
 const settings2 = {
     className: "block md:hidden",
@@ -39,32 +26,26 @@ const settings2 = {
 export default function Carousel() {
     return (
         <div>
-            <div className='hidden md:block'>
+            <div className='hidden md:block  '>
             <Slider  {...settings}>
             <div className="slide">
-                <div className='hidden md:block' style={{borderRadius: '10px', overflow: 'hidden'}}>
-                    <Image  width={958} height={392} src="/images/wts1.jpg" alt="img" layout="responsive"  />
+                <div className='hidden md:block' style={{borderRadius: '15px', overflow: 'hidden'}}>
+                    <Image  width={958} height={382} src="/images/wts1.jpg" alt="img" layout="responsive"  />
                 </div>
-                <div className='block md:hidden' style={{borderRadius: '10px', overflow: 'hidden'}}>
-                    <Image priority width={1413} height={1746} src="/images/wtsm1.jpg" alt="img" layout="responsive"   />
-                </div>
+                
             </div>
             <div className="slide">
-                <div className='hidden md:block' style={{borderRadius: '10px', overflow: 'hidden'}}>
-                    <Image width={958} height={392} src="/images/wts2.jpg" alt="img" layout="responsive"  />
+                <div className='hidden md:block' style={{borderRadius: '15px', overflow: 'hidden'}}>
+                    <Image width={958} height={382} src="/images/wts2.jpg" alt="img" layout="responsive"  />
                 </div>
-                <div className='block md:hidden' style={{borderRadius: '10px', overflow: 'hidden'}}>
-                    <Image  width={1413} height={1746} src="/images/wtsm2.jpg" alt="img" layout="responsive"   />
-                </div>
+                
             </div>
 
             <div className="slide">
-                <div className='hidden md:block' style={{borderRadius: '10px', overflow: 'hidden'}}>
-                    <Image width={958} height={392} src="/images/wts3.jpg" alt="img" layout="responsive"  />
+                <div className='hidden md:block' style={{borderRadius: '15px', overflow: 'hidden'}}>
+                    <Image width={958} height={382} src="/images/wts3.jpg" alt="img" layout="responsive"  />
                 </div>
-                <div className='block md:hidden' style={{borderRadius: '10px', overflow: 'hidden'}}>
-                    <Image  width={1413} height={1746} src="/images/wtsm3.jpg" alt="img" layout="responsive"   />
-                </div>
+                
             </div>
          
        
