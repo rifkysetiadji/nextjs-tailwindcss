@@ -6,7 +6,7 @@ export default function Footer() {
             <div className='md:max-w-2xl lg:max-w-5xl mx-auto '>
                 <div className='flex-col md:flex-row flex justify-between items-start md:items-center md:space-y-0 space-y-5'>
                     {/* <div > */}
-                        <img className='relative md:w-[400px]  w-[200px] ' src="/images/onegml.webp"  alt="ONE GML" />
+                        <img className='relative md:w-[400px]  w-[200px] object-contain' src="/images/onegml.webp"  alt="ONE GML" />
                     {/* </div> */}
                     <div className='flex items-center space-x-3 md:w-[400px] w-full'>
                         <p className=' md:text-[24px] text-[12px] text-[#252525] font-bold font-display'>Subscribe our latest insight and event</p>
