@@ -2,12 +2,12 @@ import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import Schedule from './Schedule'
-export default function Layout() {
+export default function Layout(props) {
     return (
         <div>
             <Navbar/>
             <div style={{marginTop:85,marginBottom:20}}>
-                <p>content</p>
+                {props.children}
             </div>
             <Schedule/>
             <Footer/>

@@ -1,16 +1,42 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.slick-active { 
+  padding: 20px 0; 
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.slick-center { 
+  transform: scale(1,1.1) ;
+  z-index: 300;
+  position: relative;
 }
 
-* {
-  box-sizing: border-box;
+.slick-slide:not(.slick-active) { 
+  margin: 20px 0; 
+
+}
+
+.child { 
+  width:100%; 
+}
+.slide:not(.slick-active) { 
+  cursor: pointer; 
+}
+
+.slick-slider:hover .slick-arrow{
+  display: flex!important;
+}
+.slick-arrow{
+  display: none!important;
+}
+.slick-slider {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.slick-list {
+  margin: 0 0px !important;
+}
+
+.slick-slide > div {
+  padding: 0 7px !important;
+  /* border: 1px solid; */
+
 }
