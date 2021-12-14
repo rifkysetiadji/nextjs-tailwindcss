@@ -32,16 +32,18 @@ export default function Carousel() {
                 <div className='hidden md:block' style={{borderRadius: '10px', overflow: 'hidden'}}>
                     <Image  width={958} height={392} src="/images/wts1.jpg" alt="img" layout="responsive"  />
                 </div>
-                <div className='block md:hidden' style={{borderRadius: '10px', overflow: 'hidden'}}>
-                    <Image priority width={1413} height={1746} src="/images/wtsm1.jpg" alt="img" layout="responsive"   />
+                <div className='block md:hidden' style={{width:'100%',height:350,position:'relative',borderRadius: '10px', overflow: 'hidden'}}>
+                    <Image   objectFit="fill"src={`/images/wtsm1.jpg`} alt="" layout="fill"/>
+
                 </div>
             </div>
             <div className="slide">
                 <div className='hidden md:block' style={{borderRadius: '10px', overflow: 'hidden'}}>
                     <Image width={958} height={392} src="/images/wts2.jpg" alt="img" layout="responsive"  />
                 </div>
-                <div className='block md:hidden' style={{borderRadius: '10px', overflow: 'hidden'}}>
-                    <Image  width={1413} height={1746} src="/images/wtsm2.jpg" alt="img" layout="responsive"   />
+                <div className='block md:hidden' style={{width:'100%',height:350,position:'relative',borderRadius: '10px', overflow: 'hidden'}}>
+                    <Image   objectFit="fill"src={`/images/wtsm1.jpg`} alt="" layout="fill"/>
+
                 </div>
             </div>
 
@@ -49,8 +51,9 @@ export default function Carousel() {
                 <div className='hidden md:block' style={{borderRadius: '10px', overflow: 'hidden'}}>
                     <Image width={958} height={392} src="/images/wts3.jpg" alt="img" layout="responsive"  />
                 </div>
-                <div className='block md:hidden' style={{borderRadius: '10px', overflow: 'hidden'}}>
-                    <Image  width={1413} height={1746} src="/images/wtsm3.jpg" alt="img" layout="responsive"   />
+                <div className='block md:hidden' style={{width:'100%',height:350,position:'relative',borderRadius: '10px', overflow: 'hidden'}}>
+                    <Image   objectFit="fill"src={`/images/wtsm1.jpg`} alt="" layout="fill"/>
+
                 </div>
             </div>
          
