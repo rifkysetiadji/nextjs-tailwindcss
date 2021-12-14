@@ -22,9 +22,9 @@ export default function Footer() {
                     <a href="#" className='text-[12px] md:text-[14px] font-display'>CALENDAR</a>
                     <p className='text-[12px] md:text-[14px] font-display'>FOLLOW US</p>
                     <div className='hidden md:flex  space-x-5'>
-                        <a href="#"><Image alt="linkedin" src="/icons/VectorLinkedin.png" width={30} height={30}/></a>
-                        <a href="#"><Image alt="linkedin" src="/icons/VectorFb.png" width={30} height={30}/></a>
-                        <a href="#"><Image alt="linkedin" src="/icons/VectorIg.png" width={30} height={30}/></a>
+                        <a href="#"><Image alt="linkedin" src="/images/VectorLinkedin.png" width={30} height={30}/></a>
+                        <a href="#"><Image alt="linkedin" src="/images/VectorFb.png" width={30} height={30}/></a>
+                        <a href="#"><Image alt="linkedin" src="/images/VectorIg.png" width={30} height={30}/></a>
                     </div>
                 </div>
                 <br className='block sm:hidden'/>
