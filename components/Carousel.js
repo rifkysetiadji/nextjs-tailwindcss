@@ -14,8 +14,8 @@ const settings = {
       {
           breakpoint: 600,
           settings: {
-              centerPadding: "40px",
-              centerMode:false,
+              centerPadding: "20px",
+            //   centerMode:false,
               arrows:false,
               // nextArrow: null,
               // prevArrow: null,
@@ -28,8 +28,7 @@ const settings = {
 export default function Carousel() {
     return (
         <div>
-            <Image priority width={1413} height={1746} src="/images/wtsm1.jpg" alt="img" layout="responsive"   />
-            {/* <Slider {...settings}>
+            <Slider {...settings}>
             <div className="slide">
                 <div className='hidden md:block' style={{borderRadius: '10px', overflow: 'hidden'}}>
                     <Image  width={958} height={392} src="/images/wts1.jpg" alt="img" layout="responsive"  />
@@ -58,7 +57,7 @@ export default function Carousel() {
          
        
       
-       </Slider> */}
+       </Slider>
         </div>
     )
 }
