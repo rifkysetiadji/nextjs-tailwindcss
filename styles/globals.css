@@ -27,8 +27,8 @@
   display: none!important;
 }
 .slick-slider {
-  overflow: hidden;
-  margin-bottom: 20px;
+  /* overflow: hidden;
+  margin-bottom: 20px; */
 }
 
 .slick-list {
@@ -40,7 +40,7 @@
 }
 
 
-.dots_mobile li button{
+/* .dots_mobile li button{
     width: 30px;
 }
 .dots_mobile li button::before{
@@ -51,4 +51,4 @@
     color: 
     #00A1ED!important;
     background-color: #00A1ED;
-}
+} */
