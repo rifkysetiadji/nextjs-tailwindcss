@@ -27,8 +27,8 @@
   display: none!important;
 }
 .slick-slider {
-  /* overflow: hidden;
-  margin-bottom: 20px; */
+  /* overflow: hidden; */
+  margin-bottom: 20px;
 }
 
 .slick-list {
