@@ -100,7 +100,7 @@ export default function Carousel() {
        <div className='inline md:hidden'>
         <Slider {...settings2}>
             <div className='slide'>
-                <div className="w-full h-[340px] bg-[url('/images/banner-home-bg-m.webp')] bg-contain bg-no-repeat rounded-[15px]"></div>
+                <div className="w-full h-[380px] bg-[url('/images/banner-home-bg-m.webp')] bg-cover bg-no-repeat rounded-[15px]"></div>
             </div>
             <div className="slide">
                 <div className="w-full h-[380px] bg-[url('/images/wtsm1.webp')] bg-contain bg-no-repeat rounded-[15px]"></div>
