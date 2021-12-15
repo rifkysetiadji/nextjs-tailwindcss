@@ -6,7 +6,6 @@ export default function Index() {
     <div>
       <Layout>
         <Carousel/> 
-
       </Layout>
     </div>
   )

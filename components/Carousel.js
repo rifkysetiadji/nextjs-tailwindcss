@@ -64,6 +64,9 @@ export default function Carousel() {
         <div>
             <div className='hidden md:block  '>
             <Slider  {...settings}>
+            {/* <div className='slide'>
+
+            </div> */}
             <div className="slide">
                 <div className='hidden md:block' style={{borderRadius: '15px', overflow: 'hidden'}}>
                     <Image  width={958} height={382} src="/images/wts1.jpg" alt="img" layout="responsive"  />
@@ -99,20 +102,20 @@ export default function Carousel() {
             <div className="slide">
                 
                 <div className='block ' style={{borderRadius: '10px', overflow: 'hidden'}}>
-                    <Image priority width={1413} height={1646} src="/images/wtsm1.jpg" alt="img" layout="responsive"   />
+                    <Image priority width={1413} height={1646} src="/images/wtsm1.webp" alt="img" layout="responsive"   />
                 </div>
             </div>
             <div className="slide">
                
                 <div className='block ' style={{borderRadius: '10px', overflow: 'hidden'}}>
-                    <Image  width={1413} height={1646} src="/images/wtsm2.jpg" alt="img" layout="responsive"   />
+                    <Image  width={1413} height={1646} src="/images/wtsm2.webp" alt="img" layout="responsive"   />
                 </div>
             </div>
 
             <div className="slide">
                 
                 <div className='block ' style={{borderRadius: '10px', overflow: 'hidden'}}>
-                    <Image  width={1413} height={1646} src="/images/wtsm3.jpg" alt="img" layout="responsive"   />
+                    <Image  width={1413} height={1646} src="/images/wtsm3.webp" alt="img" layout="responsive"   />
                 </div>
             </div>
          

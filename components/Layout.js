@@ -6,7 +6,7 @@ export default function Layout(props) {
     return (
         <div>
             <Navbar/>
-            <div style={{marginTop:85,marginBottom:20}}>
+            <div style={{marginTop:100,marginBottom:40,backgroundColor:'#F7FAFC'}}>
                 {props.children}
             </div>
             <Schedule/>
