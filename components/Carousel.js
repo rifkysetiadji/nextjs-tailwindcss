@@ -120,6 +120,7 @@ export default function Carousel() {
             <div className="slide">
             {/* <div className="w-full h-[380px] bg-[url('/images/wtsm3.webp')] bg-contain bg-no-repeat rounded-[15px]"></div> */}
                 
+                
                 <div className='block ' style={{borderRadius: '10px', overflow: 'hidden'}}>
                     <Image  width={1413} height={1646} src="/images/wtsm3.webp" alt="img" layout="responsive"   />
                 </div>
