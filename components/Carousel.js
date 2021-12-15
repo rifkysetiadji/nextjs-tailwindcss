@@ -103,23 +103,26 @@ export default function Carousel() {
                 <div className="w-full h-[340px] bg-[url('/images/banner-home-bg-m.webp')] bg-contain bg-no-repeat rounded-[15px]"></div>
             </div>
             <div className="slide">
+                <div className="w-full h-[380px] bg-[url('/images/wtsm1.webp')] bg-contain bg-no-repeat rounded-[15px]"></div>
                 
-                <div className='block ' style={{borderRadius: '10px', overflow: 'hidden'}}>
+                {/* <div className='block ' style={{borderRadius: '10px', overflow: 'hidden'}}>
                     <Image priority width={1413} height={1646} src="/images/wtsm1.jpg" alt="img" layout="responsive"   />
-                </div>
+                </div> */}
             </div>
             <div className="slide">
+                <div className="w-full h-[380px] bg-[url('/images/wtsm2.webp')] bg-contain bg-no-repeat rounded-[15px]"></div>
                
-                <div className='block ' style={{borderRadius: '10px', overflow: 'hidden'}}>
+                {/* <div className='block ' style={{borderRadius: '10px', overflow: 'hidden'}}>
                     <Image  width={1413} height={1646} src="/images/wtsm2.jpg" alt="img" layout="responsive"   />
-                </div>
+                </div> */}
             </div>
 
             <div className="slide">
+            <div className="w-full h-[380px] bg-[url('/images/wtsm3.webp')] bg-contain bg-no-repeat rounded-[15px]"></div>
                 
-                <div className='block ' style={{borderRadius: '10px', overflow: 'hidden'}}>
+                {/* <div className='block ' style={{borderRadius: '10px', overflow: 'hidden'}}>
                     <Image  width={1413} height={1646} src="/images/wtsm3.jpg" alt="img" layout="responsive"   />
-                </div>
+                </div> */}
             </div>
          
        
