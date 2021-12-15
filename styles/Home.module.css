@@ -107,7 +107,18 @@
   height: 1em;
   margin-left: 0.5rem;
 }
-
+.dots_mobile li button{
+  width: 30px;
+}
+.dots_mobile li button::before{
+  content: '';
+  width: 10px!important;
+  height: 10px!important;
+  border-radius: 100%;
+  color: 
+  #00A1ED!important;
+  background-color: #00A1ED!important;
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;

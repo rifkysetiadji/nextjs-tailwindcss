@@ -1,6 +1,7 @@
 import React from 'react'
 import Slider from "react-slick";
-import Image from 'next/image'
+import Image from 'next/image';
+import style from '../styles/Home.module.css'
 function SampleNextArrow(props) {
     const {  style, onClick, } = props;
     return (
@@ -37,7 +38,7 @@ function SampleNextArrow(props) {
 const settings = {
     
         centerMode: true,
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     centerPadding:"150px",
@@ -47,15 +48,16 @@ const settings = {
     prevArrow: <SamplePrevArrow/>,
   };
 const settings2 = {
-    className: "block md:hidden",
+    className: "banner-carousel",
     centerMode: true,
-    dots: true,
     infinite: true,
     speed: 500,
     centerPadding:"20px",
     slidesToShow: 1,
     slidesToScroll: 1,
-
+    arrows:false,
+    dots:true,
+    dotsClass: `slick-dots ${style.dots_mobile}`,
   };
 export default function Carousel() {
     return (
@@ -92,7 +94,7 @@ export default function Carousel() {
       
        </Slider>
        </div>
-       <div className='block md:hidden'>
+       <div className='inline md:hidden'>
         <Slider {...settings2}>
             <div className="slide">
                 

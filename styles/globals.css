@@ -26,9 +26,10 @@
 .slick-arrow{
   display: none!important;
 }
+
 .slick-slider {
-  overflow: hidden;
-  margin-bottom: 20px;
+  /* overflow: hidden; */
+  /* margin-bottom: 20px; */
 }
 
 .slick-list {
@@ -37,4 +38,6 @@
 
 .slick-slide > div {
   padding: 0 7px !important;
+  /* border: 1px solid; */
+
 }
