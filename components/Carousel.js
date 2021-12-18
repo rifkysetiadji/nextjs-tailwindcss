@@ -64,9 +64,9 @@ export default function Carousel() {
         <div>
             <div className='hidden md:block  '>
             <Slider  {...settings}>
-            <div className='slide'>
+            {/* <div className='slide'>
                 <div className="w-full h-[382px] bg-[url('/images/banner-home-bg.webp')] bg-contain bg-no-repeat rounded-[15px]"></div>
-            </div>
+            </div> */}
             <div className="slide">
                 <div className='hidden md:block' style={{borderRadius: '15px', overflow: 'hidden'}}>
                     <Image  width={958} height={382} src="/images/wts1.jpg" alt="img" layout="responsive"  />
@@ -99,9 +99,9 @@ export default function Carousel() {
        </div>
        <div className='inline md:hidden'>
         <Slider {...settings2}>
-            <div className='slide'>
+            {/* <div className='slide'>
                 <div className="w-full h-[352px] bg-[url('/images/banner-home-bg-m.webp')] bg-cover bg-no-repeat rounded-[15px]"></div>
-            </div>
+            </div> */}
             <div className="slide">
                 {/* <div className="w-full h-[380px] bg-[url('/images/wtsm1.webp')] bg-contain bg-no-repeat rounded-[15px]"></div> */}
                 
