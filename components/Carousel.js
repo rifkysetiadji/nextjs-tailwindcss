@@ -65,8 +65,10 @@ export default function Carousel() {
             <div className='hidden md:block  py-5'>
             <Slider  {...settings}>
             <div className='slide '>
-                
-                <div className="w-full h-[432px] bg-[url('/images/banner-home-bg.webp')] bg-cover bg-no-repeat rounded-[15px]"></div>
+                <div className='hidden md:block' style={{borderRadius: '15px', overflow: 'hidden'}}>
+                    <Image  width={958} height={380} src="/images/banner-home-bg.webp" alt="img" layout="responsive"  />
+                </div>
+                {/* <div className="w-full h-[432px] bg-[url('/images/banner-home-bg.webp')] bg-cover bg-no-repeat rounded-[15px]"></div> */}
             </div>
             <div className="slide">
                 <div className='hidden md:block' style={{borderRadius: '15px', overflow: 'hidden'}}>
