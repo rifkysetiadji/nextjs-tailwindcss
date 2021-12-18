@@ -62,14 +62,15 @@ const settings2 = {
 export default function Carousel() {
     return (
         <div>
-            <div className='hidden md:block  '>
+            <div className='hidden md:block  py-5'>
             <Slider  {...settings}>
-            {/* <div className='slide'>
-                <div className="w-full h-[382px] bg-[url('/images/banner-home-bg.webp')] bg-contain bg-no-repeat rounded-[15px]"></div>
-            </div> */}
+            <div className='slide '>
+                
+                <div className="w-full h-[432px] bg-[url('/images/banner-home-bg.webp')] bg-cover bg-no-repeat rounded-[15px]"></div>
+            </div>
             <div className="slide">
                 <div className='hidden md:block' style={{borderRadius: '15px', overflow: 'hidden'}}>
-                    <Image  width={958} height={382} src="/images/wts1.jpg" alt="img" layout="responsive"  />
+                    <Image  width={958} height={380} src="/images/wts1.jpg" alt="img" layout="responsive"  />
                 </div>
                 {/* <div className='block md:hidden' style={{borderRadius: '10px', overflow: 'hidden'}}>
                     <Image priority width={1413} height={1746} src="/images/wtsm1.jpg" alt="img" layout="responsive"   />
