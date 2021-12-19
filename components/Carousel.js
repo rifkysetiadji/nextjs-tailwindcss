@@ -77,7 +77,7 @@ export default function Carousel() {
                         </div>
                         <div className='w-[140px] h-[80px] relative '>
                             <Image src="/images/thumb-banner.jpeg" layout='fill' alt='thumb' objectFit='cover'/>
-                            <div className='w-[40px] h-[38px] left-0 right-0 max-auto rounded-full bg-white absolute flex justify-center items-center'>
+                            <div className='w-[40px] h-[40px] left-0 right-0 top-0 bottom-0 mx-auto my-auto rounded-full bg-white absolute flex justify-center items-center'>
                                 <PlayArrowRoundedIcon  sx={{ fontSize: 40 }} color='primary'/>
                             </div>
                         </div>
@@ -127,7 +127,7 @@ export default function Carousel() {
                         <p className='text-white text-[13px]  font-display my-[14px]'>We help you transform your organization’s execution capability through Purpose-Driven Strategy, Execution Biased System, Empowered Structure, Entrepreneurial People, Adhocracy Culture and Ambidextrous Leadership.</p>
                         <div className='w-[120px] h-[80px] ml-3  relative'>
                             <Image src="/images/thumb-banner.jpeg" layout='fill' alt='thumb' objectFit='cover'/>
-                            <div className='w-[40px] h-[38px] left-0 right-0 max-auto rounded-full bg-white absolute flex justify-center items-center'>
+                            <div className='w-[40px] h-[40px] left-0 right-0 top-0 bottom-0 mx-auto my-auto rounded-full bg-white absolute flex justify-center items-center'>
                                 <PlayArrowRoundedIcon  sx={{ fontSize: 40 }} color='primary'/>
                             </div>
                         </div>
