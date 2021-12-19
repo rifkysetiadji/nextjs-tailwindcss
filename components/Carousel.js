@@ -65,8 +65,18 @@ export default function Carousel() {
             <div className='hidden md:block  py-5'>
             <Slider  {...settings}>
             <div className='slide '>
-                <div className='hidden md:block' style={{borderRadius: '15px', overflow: 'hidden'}}>
+                <div className='hidden md:block relative' style={{borderRadius: '15px', overflow: 'hidden'}}>
                     <Image  width={958} height={380} src="/images/banner-home-bg.webp" alt="img" layout="responsive"  />
+                    <div className='absolute  w-10/12 flex items-center justify-between  left-0 right-0 mx-auto  top-0 bottom-0'>
+                        <div className='w-6/12'>
+                            <p className='text-white text-[15px] font-display my-[16px]'>WHO WE ARE</p>
+                            <h1 className='text-white text-[31px] font-display font-bold my-[16px]'>Agile Execution of your Transformation<br/> Strategy</h1>
+                            <p className='text-white text-[15px]  font-display my-[16px]'>We help you transform your organization’s execution capability through Purpose-Driven Strategy, Execution Biased System, Empowered Structure, Entrepreneurial People, Adhocracy Culture and Ambidextrous Leadership.</p>
+                        </div>
+                        <div className='w-[140px] h-[80px] relative '>
+                            <Image src="/images/thumb-banner.jpeg" layout='fill' alt='thumb' objectFit='cover'/>
+                        </div>
+                    </div>
                 </div>
                 {/* <div className="w-full h-[432px] bg-[url('/images/banner-home-bg.webp')] bg-cover bg-no-repeat rounded-[15px]"></div> */}
             </div>
