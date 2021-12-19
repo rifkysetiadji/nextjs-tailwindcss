@@ -114,8 +114,16 @@ export default function Carousel() {
         <Slider {...settings2}>
             <div className='slide'>
                 {/* <div className="w-full h-[352px] bg-[url('/images/banner-home-bg-m.webp')] bg-cover bg-no-repeat rounded-[15px]"></div> */}
-                <div className='block ' style={{borderRadius: '10px', overflow: 'hidden'}}>
+                <div className='block relative' style={{borderRadius: '10px', overflow: 'hidden'}}>
                     <Image priority width={1413} height={1646} src="/images/banner-home-bg-m.webp" alt="img" layout="responsive"   />
+                    <div className='absolute  w-11/12    left-0 right-0 mx-auto my-auto  top-0 bottom-0'>
+                        <p className='text-white text-[13px] font-display my-[14px]'>WHO WE ARE</p>
+                        <h1 className='text-white text-[18px] font-display font-bold my-[14px]'>Agile Execution of your Transformation<br/> Strategy</h1>
+                        <p className='text-white text-[13px]  font-display my-[14px]'>We help you transform your organization’s execution capability through Purpose-Driven Strategy, Execution Biased System, Empowered Structure, Entrepreneurial People, Adhocracy Culture and Ambidextrous Leadership.</p>
+                        <div className='w-[120px] h-[80px] ml-3  relative'>
+                            <Image src="/images/thumb-banner.jpeg" layout='fill' alt='thumb' objectFit='cover'/>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="slide">
