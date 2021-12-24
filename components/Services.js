@@ -127,9 +127,9 @@ export default function Services() {
                     {cs.map((d,i)=>(
                         <div className='px-6 my-8' key={i}>
                             {i===6?
-                            <img src={d.image} className='w-full mb-8'/>
+                            <Image width={300} height={100} objectFit='contain' src={d.image} className='w-full mb-8'/>
                             :<div className='bg-white rounded-2xl w-20 p-2 shadow-md mx-auto mb-8'>
-                                <img src={d.image} className='w-20'/>
+                                <Image objectFit='contain' width={80} height={80} alt='services' src={d.image} className='w-20'/>
                             </div>}
                             <h1 className='font-display text-[16px] font-bold text-[#333333] '>{d.title}</h1>
                             <p className='text-[14px] text-[#333333] my-[12px]'>{d.desc}</p>
