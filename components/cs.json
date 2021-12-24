@@ -1,0 +1,53 @@
+[
+    {
+        "title":"Purpose-Driven Strategy",
+        "desc":"Build innovative, digital differentiated strategy and execution capability",
+        "item":["DX Readiness Assessment","North-Star Mission and  Vision","Strategy Formulation"],
+        "url":"/services/purpose-driven-strategy",
+        "image":"/images/cs-item1-m.png"
+    },
+    {
+        "title":"Execution-Biased Systems",
+        "desc":"Develop an agile approach in initiative, project and process management, enabled by latest technology",
+        "item":["Dual Speed Execution with SPEx2®","Strategic Process Management Xcellence (PMX®)","Enterprise Architecture Design"],
+        "url":"/services/execution-biased-systems",
+        "image":"/images/cs-item2-m.png"
+
+    },
+    {
+        "title":"Empowered Structure",
+        "desc":"Redesign your organization structure with clear roles, accountability and cross-functional ecosystem network orientation that drives growth",
+        "item":["Agile Structure Development","Strategic Workforce Planning","Strategy Management Office        "],
+        "url":"/services/empowered-structure",
+        "image":"/images/cs-item3-m.png"
+    },
+    {
+        "title":"Entrepreneurial People",
+        "desc":"Design digital HR and talent management systems that create a team first, individual second culture, and builder mentality        ",
+        "item":["HR Strategy & Blueprint","Digital Assessment Center","Talent Management & People Development"],
+        "url":"/services/entrepreneurial-people",
+        "image":"/images/cs-item4-m.png"
+    },
+    {
+        "title":"Adhocracy Culture",
+        "desc":"Assess, design and internalize a new culture that promotes innovation and disciplined strategy execution",
+        "item":["Change Management ","Corporate Culture Re-formulation","Digital Value Communication"],
+        "url":"/services/adhocracy-culture",
+        "image":"/images/cs-item5-m.png"
+    },
+    {
+        "title":"Ambidextrous Leadership",
+        "desc":"Develop leadership capability that inspire strategic exploration behaviors and disciplined exploitation for results",
+        "item":["Ambidextrous Leadership","SPEx2® for Line Managers"],
+        "url":"/services/ambidextrous-leadership",
+        "image":"/images/cs-item6-m.png"
+    },
+    {
+        "title":"Centre of Digital and Human Transformation",
+        "desc":"CDHX is founded by Indonesian and global leaders of digital and hr tranformation who voluntarily serve as our board of advisor. Our programs are designed to deliver effective development of individual and corporate capabilities that would contribute to the vision of 2045 Indonesia Emas.        ",
+        "item":[],
+        "url":"https://cdhx.gmlperformance.com/",
+        "image":"/images/cs-item7.png"
+    }
+    
+]
