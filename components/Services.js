@@ -5,7 +5,7 @@ import cs from './cs.json'
 
 export default function Services() {
     return (
-        <div className='md:max-w-2xl lg:max-w-5xl mx-auto border md:h-[800px] md:mt-0 mt-10  relative'>
+        <div className='md:max-w-2xl lg:max-w-5xl mx-auto  md:h-[800px] md:mt-0 mt-10  relative'>
             <img className='hidden md:block absolute w-[250px] bottom-0 left-0' src="/images/box-serve1.png"/>
             <img className='hidden md:block absolute w-[250px] bottom-0 right-0' src="/images/box-serve2.png"/>
             
@@ -125,9 +125,11 @@ export default function Services() {
                     <h1 className='font-display text-[16px] font-bold text-[#333333] relative z-10 my-[16px]'>OUR SERVICES</h1>
                     <p className='text-[14px] text-[#333333] my-[14px]'>We partner with you to build a sustainable growth by excelling across 6 dimensions:</p>
                     {cs.map((d,i)=>(
-                        <div className='px-6 my-8' key={i}>
+                        <div className=' my-8' key={i}>
                             {i===6?
+                            <div className='bg-white rounded-2xl  p-2 shadow-md mx-auto mb-8'>
                             <Image width={300} height={100} objectFit='contain' src={d.image} className='w-full mb-8'/>
+                            </div>
                             :<div className='bg-white rounded-2xl w-20 p-2 shadow-md mx-auto mb-8'>
                                 <Image objectFit='contain' width={80} height={80} alt='services' src={d.image} className='w-20'/>
                             </div>}

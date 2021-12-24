@@ -52,3 +52,7 @@
     #00A1ED!important;
     background-color: #00A1ED;
 } */
+
+.img-rounded > :nth-child(1) {
+  border-radius: 10px !important;
+}
