@@ -11,7 +11,7 @@ export default function Index() {
   return (
     <div>
       <Layout>
-        {/* <Carousel/>  */}
+        <Carousel/> 
         <Services/>
         <Assesstment/>
         <Client/>
