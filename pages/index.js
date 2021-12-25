@@ -3,6 +3,7 @@ import Layout from '../components/Layout'
 import Carousel from '../components/Carousel'
 import Services from '../components/Services'
 import Assesstment from '../components/Assesstment'
+import Client from '../components/Client'
 export default function Index() {
   return (
     <div>
@@ -10,6 +11,7 @@ export default function Index() {
         <Carousel/> 
         <Services/>
         <Assesstment/>
+        <Client/>
       </Layout>
     </div>
   )

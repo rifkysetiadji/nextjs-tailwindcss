@@ -56,3 +56,15 @@
 .img-rounded > :nth-child(1) {
   border-radius: 10px !important;
 }
+
+.swiper-pagination-bullet{
+  /* border: 1px solid; */
+  width: 40px!important;
+  height: 5px!important;
+  border-radius: 0%!important;
+  background: #00a1ed!important;
+
+}
+.swiper-pagination-bullet-active{
+  background: #00a1ed!important;
+}
