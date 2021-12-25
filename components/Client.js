@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination} from 'swiper';
+import Image from 'next/image'
 export default function Client() {
     
     const [filter, setfilter] = useState([
@@ -157,22 +158,88 @@ export default function Client() {
             <h1 className='font-display text-[32px] font-bold mb-2'>Our Clients</h1>
             <button className='text-[#00a1ed] font-bold text-[14px]' href="#">Filter : All Selector</button>
             <br/>
+            <div className='md:block hidden'>
             <Swiper
-       loop={true}
-       modules={[ Pagination]}
-      spaceBetween={50}
-      slidesPerView={1}
-      onSlideChange={() => console.log('slide change')}
-      onSwiper={(swiper) => console.log(swiper)}
-      pagination={pagination}
-    >
-      <SwiperSlide style={{height:200,display:'flex',justifyContent:'center',alignItems:'center'}}>Slide 1</SwiperSlide>
-      <SwiperSlide style={{height:200,display:'flex',justifyContent:'center',alignItems:'center'}}>Slide 2</SwiperSlide>
-      <SwiperSlide style={{height:200,display:'flex',justifyContent:'center',alignItems:'center'}}>Slide 3</SwiperSlide>
-      <SwiperSlide style={{height:200,display:'flex',justifyContent:'center',alignItems:'center'}}>Slide 4</SwiperSlide>
-      <SwiperSlide style={{height:200,display:'flex',justifyContent:'center',alignItems:'center'}}>Slide 5</SwiperSlide>
-      <SwiperSlide style={{height:200,display:'flex',justifyContent:'center',alignItems:'center'}}>Slide 6</SwiperSlide>
-    </Swiper>
+                loop={true}
+                modules={[ Pagination]}
+                spaceBetween={50}
+                slidesPerView={1}
+                onSlideChange={() => console.log('slide change')}
+                onSwiper={(swiper) => console.log(swiper)}
+                pagination={pagination}
+                >
+                    <SwiperSlide>
+                        <div className='grid grid-cols-5 gap-10'>
+                            <Image src="/images/client/1.png" width={200} height={200} objectFit='contain'/>
+                            <Image src="/images/client/2.png" width={200} height={200} objectFit='contain'/>
+                            <Image src="/images/client/3.png" width={200} height={200} objectFit='contain'/>
+                            <Image src="/images/client/4.png" width={200} height={200} objectFit='contain'/>
+                            <Image src="/images/client/5.png" width={200} height={200} objectFit='contain'/>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='grid grid-cols-5 gap-10'>
+                            <Image src="/images/client/4.png" width={200} height={200} objectFit='contain'/>
+                            <Image src="/images/client/5.png" width={200} height={200} objectFit='contain'/>
+                            <Image src="/images/client/6.png" width={200} height={200} objectFit='contain'/>
+                            <Image src="/images/client/7.png" width={200} height={200} objectFit='contain'/>
+                            <Image src="/images/client/8.png" width={200} height={200} objectFit='contain'/>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='grid grid-cols-5 gap-10'>
+                            <Image src="/images/client/9.png" width={200} height={200} objectFit='contain'/>
+                            <Image src="/images/client/10.png" width={200} height={200} objectFit='contain'/>
+                            <Image src="/images/client/11.png" width={200} height={200} objectFit='contain'/>
+                            <Image src="/images/client/12.png" width={200} height={200} objectFit='contain'/>
+                            <Image src="/images/client/13.png" width={200} height={200} objectFit='contain'/>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='grid grid-cols-5 gap-10'>
+                            <Image src="/images/client/14.png" width={200} height={200} objectFit='contain'/>
+                            <Image src="/images/client/15.png" width={200} height={200} objectFit='contain'/>
+                            <Image src="/images/client/16.png" width={200} height={200} objectFit='contain'/>
+                            <Image src="/images/client/17.png" width={200} height={200} objectFit='contain'/>
+                            <Image src="/images/client/18.png" width={200} height={200} objectFit='contain'/>
+                        </div>
+                    </SwiperSlide>
+                    
+            </Swiper>
+            </div>
+            <div className='md:hidden block'>
+            <Swiper
+                loop={true}
+                modules={[ Pagination]}
+                spaceBetween={50}
+                slidesPerView={1}
+                onSlideChange={() => console.log('slide change')}
+                onSwiper={(swiper) => console.log(swiper)}
+                pagination={pagination}
+                >
+                    <SwiperSlide>
+                        <div className='grid grid-cols-3 gap-x-5 mb-10'>
+                            <Image src="/images/client/1.png" width={80} height={80} objectFit='contain'/>
+                            <Image src="/images/client/2.png" width={80} height={80} objectFit='contain'/>
+                            <Image src="/images/client/3.png" width={80} height={80} objectFit='contain'/>
+                            <Image src="/images/client/4.png" width={80} height={80} objectFit='contain'/>
+                            <Image src="/images/client/5.png" width={80} height={80} objectFit='contain'/>
+                            <Image src="/images/client/6.png" width={80} height={80} objectFit='contain'/>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                        <div className='grid grid-cols-3 gap-x-5 mb-10'>
+                            <Image src="/images/client/7.png" width={80} height={80} objectFit='contain'/>
+                            <Image src="/images/client/8.png" width={80} height={80} objectFit='contain'/>
+                            <Image src="/images/client/9.png" width={80} height={80} objectFit='contain'/>
+                            <Image src="/images/client/10.png" width={80} height={80} objectFit='contain'/>
+                            <Image src="/images/client/11.png" width={80} height={80} objectFit='contain'/>
+                            <Image src="/images/client/12.png" width={80} height={80} objectFit='contain'/>
+                        </div>
+                    </SwiperSlide>
+                    
+            </Swiper>
+            </div>
         </div>
     )
 }
