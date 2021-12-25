@@ -153,7 +153,7 @@ export default function Client() {
               }
       }
     return (
-        <div className='md:max-w-2xl lg:max-w-5xl mx-auto  md:h-[800px] md:py-0 py-10  md:px-0 px-6  relative'>
+        <div className='md:max-w-2xl lg:max-w-5xl mx-auto   py-10  md:px-0 px-6  relative'>
             <h1 className='font-display text-[32px] font-bold mb-2'>Our Clients</h1>
             <button className='text-[#00a1ed] font-bold text-[14px]' href="#">Filter : All Selector</button>
             <br/>
