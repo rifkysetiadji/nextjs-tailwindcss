@@ -6,9 +6,9 @@ export default function Navbar() {
   const [publication_dropdown, setpublication_dropdown] = useState(false)
   const [sidemenu, setsidemenu] = useState(false)
   return (
-    <div>         
-      <nav className={`${sidemenu?'bg-blue-400':'bg-white'} z-10  top-0 fixed w-full`}>
-        <div className="md:max-w-2xl lg:max-w-5xl mx-auto  py-4  ">
+    <div >         
+      <nav className={`${sidemenu?'bg-blue-400':'bg-white'} z-50  top-0 fixed w-full`}>
+        <div className="md:max-w-2xl lg:max-w-5xl mx-auto  py-4  z-50">
           <div className={`${!sidemenu&&'hidden'}  flex justify-between items-center md:px-0 px-6`}>
             <Image className='' src="/images/logo-circle.png" width={70} height={70}/>
             <div>

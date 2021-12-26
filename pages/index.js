@@ -4,6 +4,7 @@ import Carousel from '../components/Carousel'
 import Services from '../components/Services'
 import Assesstment from '../components/Assesstment'
 import Insight from '../components/Insight'
+import Join from '../components/Join'
 import dynamic from 'next/dynamic'
 const Client = dynamic(()=>import('../components/Client'))
 
@@ -16,6 +17,7 @@ export default function Index() {
         <Assesstment/>
         <Client/>
         <Insight/>
+        <Join/>
       </Layout>
     </div>
   )
